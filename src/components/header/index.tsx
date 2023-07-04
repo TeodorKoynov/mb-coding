@@ -2,7 +2,6 @@
 
 import React, { useEffect, useState } from 'react';
 import Link, { LinkProps } from 'next/link';
-import { Button } from '@/components/ui/buttons';
 
 export type HeaderProps = unknown;
 
@@ -92,7 +91,7 @@ export const Header: React.FC<HeaderProps> = () => {
   };
 
   return (
-    <header className="sticky top-0">
+    <header className="sticky top-0 z-50">
       <nav id="main-nav" className="relative border-gray-200 bg-background">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
           <a href="https://flowbite.com" className="flex items-center">
