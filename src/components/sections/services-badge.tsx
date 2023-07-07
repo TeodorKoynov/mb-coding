@@ -28,7 +28,8 @@ export const ServicesBadge: React.FC<ServicesBadgeProps> = ({ id }) => {
   return (
     <Section id={id} className="bg-brown-600 md:min-h-fit">
       {/*<div className="mb-6 flex flex-row flex-wrap gap-6 lg:flex-nowrap">*/}
-      <div className="mb-6 grid w-full grid-cols-1 grid-rows-1 gap-12 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1">
+      <div className="grid w-full grid-cols-1 grid-rows-1 gap-12 md:mb-6 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1">
+        {/*<div className="mb-6 grid w-full grid-cols-2 grid-rows-2 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1">*/}
         <BadgeCard
           icon={<Search className="min-w-[60px] max-w-[60px]" width={80} height={80} />}
           title={'Car Inspection'}
