@@ -36,10 +36,10 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
         </div>
 
         <div className="flex w-full flex-col items-center justify-between gap-2 rounded-xl border-2 border-brown-50/20 bg-white/20 py-2 pl-2 pr-2 shadow-xl backdrop-blur-lg sm:flex-row sm:items-stretch sm:gap-8 sm:pl-2 md:pl-4 lg:pl-8">
-          <div className="flex w-full justify-around gap-2">
+          <div className="flex w-full justify-around gap-2 text-center md:text-start">
             <div className="flex flex-col justify-center leading-tight">
-              <h3 className="text-brown-50/70">Pick Up Address</h3>
-              <p className={'text-sm'}>From home and more</p>
+              <h3 className="text-sm text-brown-50/70 sm:text-base">Pick Up Address</h3>
+              <p className={'balanced line-clamp-2 hidden text-sm lg:inline-block'}>From home and more</p>
             </div>
 
             <div className="flex min-w-min items-center">
@@ -47,8 +47,8 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
             </div>
 
             <div className="flex flex-col justify-center leading-tight">
-              <h3 className="text-brown-50/70">Pick Up Address</h3>
-              <p className={'text-sm'}>From home and more</p>
+              <h3 className="text-sm text-brown-50/70 sm:text-base">Pick Up Address</h3>
+              <p className={'balanced line-clamp-2 hidden text-sm lg:inline-block'}>From home and more</p>
             </div>
 
             <div className="flex items-center">
@@ -56,8 +56,8 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
             </div>
 
             <div className="flex flex-col justify-center leading-tight">
-              <h3 className="text-brown-50/70">Pick Up Address</h3>
-              <p className={'text-sm'}>From home and more</p>
+              <h3 className="text-sm text-brown-50/70 sm:text-base">Pick Up Address</h3>
+              <p className={'balanced line-clamp-2 hidden text-sm lg:inline-block'}>From home and more</p>
             </div>
 
             <div className="flex items-center">
@@ -65,8 +65,8 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
             </div>
 
             <div className="flex flex-col justify-center leading-tight">
-              <h3 className="text-brown-50/70">Pick Up Address</h3>
-              <p className={'text-sm'}>From home and more</p>
+              <h3 className="text-sm text-brown-50/70 sm:text-base">Pick Up Address</h3>
+              <p className={'balanced line-clamp-2 hidden text-sm lg:inline-block'}>From home and more</p>
             </div>
           </div>
 

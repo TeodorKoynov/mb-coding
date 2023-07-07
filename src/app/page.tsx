@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Hero } from '@/components/sections/hero';
+import { Services } from '@/components/sections/services';
 import { Button } from '@/components/ui/buttons';
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
   return (
     <main className="text-brown-50">
       <Hero />
+      <Services />
       <p>text</p>
       <p>text</p>
       <p>text</p>
