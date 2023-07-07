@@ -10,9 +10,10 @@ import navigation from '../../../public/services/navigation.jpg';
 export type ImageSectionProps = {
   imageContainerStyles?: string;
   imageSrc: StaticImageData;
+  btnText: string;
 };
 
-const ImageSection: React.FC<ImageSectionProps> = ({ imageContainerStyles, imageSrc }) => {
+const ImageSection: React.FC<ImageSectionProps> = ({ imageContainerStyles, imageSrc, btnText }) => {
   return (
     <div
       className={cn(
@@ -23,7 +24,7 @@ const ImageSection: React.FC<ImageSectionProps> = ({ imageContainerStyles, image
       <div className="absolute left-0 top-0 h-full w-full">
         <Image className="h-full w-full object-cover saturate-50" src={imageSrc} alt={'Info'} />
       </div>
-      <Button className="z-10 mb-5 ml-5 font-semibold">Interactivity Trips</Button>
+      <Button className="z-10 mb-5 ml-5 font-semibold">{btnText}</Button>
     </div>
   );
 };
@@ -41,15 +42,31 @@ export const Services: React.FC<ServicesProps> = ({ id }) => {
               sunt temporibus unde voluptas voluptates?
             </p>
           </div>
-          <ImageSection imageSrc={navigation} imageContainerStyles={'max-h-[14rem] md:max-h-fit'} />
+          <ImageSection
+            btnText={'Navigation systems'}
+            imageSrc={navigation}
+            imageContainerStyles={'max-h-[14rem] md:max-h-fit'}
+          />
         </div>
         <div className="flex w-full flex-col gap-8 md:flex-col lg:flex-row">
           {/*//todo might remove max-h-[x]*/}
-          <ImageSection imageSrc={diagnostic} imageContainerStyles="max-h-[14rem] lg:max-h-fit lg:h-auto" />
+          <ImageSection
+            btnText={'Diagnosis'}
+            imageSrc={diagnostic}
+            imageContainerStyles="max-h-[14rem] lg:max-h-fit lg:h-auto"
+          />
           <div className="flex w-full flex-col gap-8 md:flex-row lg:flex-col">
             {/*//todo might remove max-h-[x]*/}
-            <ImageSection imageSrc={dashboard} imageContainerStyles="max-h-[14rem] lg:max-h-fit lg:h-1/2" />
-            <ImageSection imageSrc={conversion} imageContainerStyles="max-h-[14rem] lg:max-h-fit lg:h-1/2" />
+            <ImageSection
+              btnText={'AMG menu'}
+              imageSrc={dashboard}
+              imageContainerStyles="max-h-[14rem] lg:max-h-fit lg:h-1/2"
+            />
+            <ImageSection
+              btnText={'USA to EU'}
+              imageSrc={conversion}
+              imageContainerStyles="max-h-[14rem] lg:max-h-fit lg:h-1/2"
+            />
           </div>
         </div>
       </div>
