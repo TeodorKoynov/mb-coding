@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Hero } from '@/components/sections/hero';
 import { Services } from '@/components/sections/services';
+import { ServicesBadge } from '@/components/sections/services-badge';
 import { Button } from '@/components/ui/buttons';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <main className="text-brown-50">
       <Hero />
       <Services />
+      <ServicesBadge />
       <p>text</p>
       <p>text</p>
       <p>text</p>

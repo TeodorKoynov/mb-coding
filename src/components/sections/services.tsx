@@ -36,7 +36,7 @@ export const Services: React.FC<ServicesProps> = ({ id }) => {
         <div className="flex w-full flex-col justify-between md:w-3/5">
           <div className="mb-5 h-fit sm:mb-6">
             <Section.Title>Our Services</Section.Title>
-            <p className=" mt-4 text-brown-50/70  sm:mt-4">
+            <p className="mt-4 text-brown-50/70  sm:mt-4">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cumque facere ipsam maxime nihil quaerat
               sunt temporibus unde voluptas voluptates?
             </p>
@@ -44,8 +44,10 @@ export const Services: React.FC<ServicesProps> = ({ id }) => {
           <ImageSection imageSrc={navigation} imageContainerStyles={'max-h-[14rem] md:max-h-fit'} />
         </div>
         <div className="flex w-full flex-col gap-8 md:flex-col lg:flex-row">
+          {/*//todo might remove max-h-[x]*/}
           <ImageSection imageSrc={diagnostic} imageContainerStyles="max-h-[14rem] lg:max-h-fit lg:h-auto" />
           <div className="flex w-full flex-col gap-8 md:flex-row lg:flex-col">
+            {/*//todo might remove max-h-[x]*/}
             <ImageSection imageSrc={dashboard} imageContainerStyles="max-h-[14rem] lg:max-h-fit lg:h-1/2" />
             <ImageSection imageSrc={conversion} imageContainerStyles="max-h-[14rem] lg:max-h-fit lg:h-1/2" />
           </div>
