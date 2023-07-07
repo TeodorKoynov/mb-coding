@@ -182,7 +182,7 @@ export const Header: React.FC<HeaderProps> = () => {
                         <a href="#" className="block rounded-lg p-3 hover:bg-brown-50/20">
                           <div className="font-semibold text-brown-50">{link.title}</div>
                           <span className="text-sm text-brown-50/95">
-                            Connect with third-party tools that you're already using.
+                            Connect with third-party tools that you&apos;re already using.
                           </span>
                         </a>
                       </li>
@@ -198,7 +198,7 @@ export const Header: React.FC<HeaderProps> = () => {
                         <a href="#" className="block rounded-lg p-3 hover:bg-brown-50/20">
                           <div className="font-semibold text-brown-50">{link.title}</div>
                           <span className="text-sm text-brown-50/95">
-                            Connect with third-party tools that you're already using.
+                            Connect with third-party tools that you&apos;re already using.
                           </span>
                         </a>
                       </li>

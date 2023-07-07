@@ -1,7 +1,6 @@
 import Image, { StaticImageData } from 'next/image';
-import { Car, Compass, LucideIcon, Map, Navigation, Search, Settings } from 'lucide-react';
+import { Car, LucideIcon, Navigation, Search, Settings } from 'lucide-react';
 import { Section } from '@/components/sections/index';
-import inspection from '.././../../public/services-badge/inspection.png';
 
 export type BadgeCard = {
   title: string;

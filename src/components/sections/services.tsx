@@ -31,7 +31,7 @@ export type ServicesProps = { id?: string };
 
 export const Services: React.FC<ServicesProps> = ({ id }) => {
   return (
-    <Section>
+    <Section id={id}>
       <div className="flex h-fit flex-col gap-8 md:flex-row">
         <div className="flex w-full flex-col justify-between md:w-3/5">
           <div className="mb-5 h-fit sm:mb-6">
