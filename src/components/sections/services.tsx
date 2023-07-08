@@ -10,10 +10,10 @@ import navigation from '../../../public/services/navigation.jpg';
 export type ImageSectionProps = {
   imageContainerStyles?: string;
   imageSrc: StaticImageData;
-  btnText: string;
+  btnText?: string;
 };
 
-const ImageSection: React.FC<ImageSectionProps> = ({ imageContainerStyles, imageSrc, btnText }) => {
+export const ImageSection: React.FC<ImageSectionProps> = ({ imageContainerStyles, imageSrc, btnText }) => {
   return (
     <div
       className={cn(
@@ -24,7 +24,7 @@ const ImageSection: React.FC<ImageSectionProps> = ({ imageContainerStyles, image
       <div className="absolute left-0 top-0 h-full w-full">
         <Image className="h-full w-full object-cover saturate-50" src={imageSrc} alt={'Info'} />
       </div>
-      <Button className="z-10 mb-5 ml-5 font-semibold">{btnText}</Button>
+      {btnText && <Button className="z-10 mb-5 ml-5 font-semibold">{btnText}</Button>}
     </div>
   );
 };
@@ -37,7 +37,7 @@ export const Services: React.FC<ServicesProps> = ({ id }) => {
         <div className="flex w-full flex-col justify-between md:w-3/5">
           <div className="mb-5 h-fit sm:mb-6">
             <Section.Title>Our Services</Section.Title>
-            <p className="mt-4 text-brown-50/70  sm:mt-4">
+            <p className="mt-4 text-brown-50/70">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cumque facere ipsam maxime nihil quaerat
               sunt temporibus unde voluptas voluptates?
             </p>
