@@ -1,6 +1,6 @@
 import { Section } from '@/components/sections/index';
 import { ImageSection } from '@/components/sections/services';
-import conversion from '../../../public/services/conversion.jpg';
+import conversion from '../../../public/services/conversion-2.jpg';
 import dashboard from '../../../public/services/dashboard.jpg';
 import navigation from '../../../public/services/navigation.jpg';
 

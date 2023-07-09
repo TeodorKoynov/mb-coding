@@ -1,3 +1,4 @@
+import { Cta } from '@/components/sections/cta';
 import { Hero } from '@/components/sections/hero';
 import { History } from '@/components/sections/history';
 import { Services } from '@/components/sections/services';
@@ -10,19 +11,7 @@ export default function Home() {
       <Services />
       <ServicesBadge />
       <History />
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
-      <p>text</p>
+      <Cta />
     </main>
   );
 }

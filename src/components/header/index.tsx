@@ -170,7 +170,7 @@ export const Header: React.FC<HeaderProps> = () => {
           id="mega-menu-full-dropdown"
           className={`${
             !focusedLink?.subLinks && 'hidden'
-          } fixed mt-1 w-full border-y border-brown-500 bg-background shadow-sm md:bg-background`}
+          } fixed w-full border-y border-brown-500 bg-background shadow-sm md:bg-background`}
         >
           {focusedLink && focusedLink.subLinks?.length && (
             <div className="mx-auto grid max-w-screen-xl px-4 py-5 text-gray-900 sm:grid-cols-2 md:px-6">
