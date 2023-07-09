@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { Section } from '@/components/sections/index';
 import { Button } from '@/components/ui/buttons';
-import car from '../../../public/test.png';
+import car from '../../../public/car.png';
 
 export type CtaProps = { id?: string };
 
@@ -16,10 +16,16 @@ export const Cta: React.FC<CtaProps> = ({ id }) => {
 
         <div
           className={
-            'bottom-0 right-0 z-0 object-contain brightness-75 md:absolute md:bottom-[100px] md:right-[-20%] md:h-1/2 lg:bottom-[50px] lg:right-[-5%] lg:h-5/6'
+            'bottom-0 right-0 z-0 flex justify-center object-contain brightness-75 md:absolute md:h-4/6 lg:h-5/6'
           }
         >
-          <Image src={car} height={1600} width={900} className={'z-0 h-full object-contain'} alt={'car'} />
+          <Image
+            src={car}
+            height={1600}
+            width={900}
+            className={'rotate-img z-0 h-full w-auto object-contain'}
+            alt={'car'}
+          />
         </div>
 
         <Button className="z-10" variant="highlight" size="xl">

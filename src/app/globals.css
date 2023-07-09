@@ -6,3 +6,7 @@
     filter: hue-rotate(329deg)
 
 }
+
+.rotate-img {
+    transform: rotateY(180deg);
+}
