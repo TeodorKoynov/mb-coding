@@ -94,8 +94,12 @@ export const Header: React.FC<HeaderProps> = () => {
     <header className="sticky top-0 z-50">
       <nav id="main-nav" className="relative border-gray-200 bg-background">
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-          <a href="https://flowbite.com" className="flex items-center">
-            <img src="https://flowbite.com/docs/images/logo.svg" className="mr-3 h-8" alt="Flowbite Logo" />
+          <a href="#" className="flex items-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Team_Fortress_2_style_logo.svg/2048px-Team_Fortress_2_style_logo.svg.png"
+              className="mr-3 h-8"
+              alt="Logo"
+            />
             <span className="self-center overflow-hidden truncate whitespace-nowrap text-2xl font-semibold text-brown-50 ">
               MB Coding <span className="hidden text-highlight-500 sm:inline-block">Plovdiv</span>
             </span>
