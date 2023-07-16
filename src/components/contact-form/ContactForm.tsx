@@ -73,7 +73,8 @@ export const ContactForm: React.FC<ContactFormProps> = () => {
           <Combobox
             searchPlaceholder={'Search model...'}
             placeholder={'Select model...'}
-            items={selectedMake?.models}
+            items={[]}
+            // items={selectedMake?.models}
             disabled={!selectedModel}
           />
         </div>
