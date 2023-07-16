@@ -3,7 +3,7 @@ import { cn } from '@/lib/utils';
 export type SectionTitleProps = React.HTMLProps<HTMLHeadingElement>;
 
 const SectionTitle: React.FC<SectionTitleProps> = ({ className, ...props }) => {
-  return <h2 className={cn('text-5xl font-semibold', className)} {...props} />;
+  return <h2 className={cn('text-4xl font-semibold sm:text-5xl', className)} {...props} />;
 };
 
 export type SectionProps = React.HTMLProps<HTMLElement>;
