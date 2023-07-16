@@ -1,3 +1,4 @@
+import { Clients } from '@/components/sections/clients';
 import { Cta } from '@/components/sections/cta';
 import { Hero } from '@/components/sections/hero';
 import { History } from '@/components/sections/history';
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <ServicesBadge />
       <History />
+      <Clients />
       <Cta />
     </main>
   );

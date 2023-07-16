@@ -17,7 +17,7 @@ export const Section: SectionComponent = ({ className, ...props }) => {
     <section
       // remove md:min-h-[x]
       className={cn(
-        'relative m-auto mt-2 flex max-w-screen-xl overflow-hidden rounded-3xl px-4 pb-10 pt-6 sm:px-16 sm:py-6 md:mb-16 md:mt-8 md:pt-12 xl:px-20',
+        'relative m-auto mt-2 flex max-w-screen-xl flex-col overflow-hidden rounded-3xl px-4 pb-10 pt-6 sm:px-16 sm:py-6 md:mb-16 md:mt-8 md:pt-12 xl:px-20',
         className
       )}
       {...props}
