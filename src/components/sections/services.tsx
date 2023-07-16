@@ -38,8 +38,8 @@ export const Services: React.FC<ServicesProps> = ({ id }) => {
           <div className="mb-5 h-fit sm:mb-6">
             <Section.Title>Our Services</Section.Title>
             <p className="mt-4 text-brown-50/70">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid cumque facere ipsam maxime nihil quaerat
-              sunt temporibus unde voluptas voluptates?
+              With us, you can exchange your old car for a new one and save up to 30% of the market price. We will give
+              you professional advice in choosing the most suitable car according to your criteria and budget.
             </p>
           </div>
           <ImageSection

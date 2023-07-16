@@ -23,8 +23,8 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
 
             <div className="z-20 flex flex-col items-start gap-4 sm:w-1/2 md:w-1/3">
               <p className="inline-block">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore facere hic id laboriosam magni mollitia
-                nam odio, repellendus? Alias, dignissimos.
+                We will help you in the selection, purchase and delivery of your dream car. Save up to 35% off the
+                market price in Europe!
               </p>
               <Button variant={'highlight'}>Learn more</Button>
             </div>

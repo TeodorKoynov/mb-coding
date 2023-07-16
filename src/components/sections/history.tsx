@@ -14,14 +14,13 @@ export const History: React.FC<HistoryProps> = ({ id }) => {
           <div className="md:w-1/3">
             <Section.Title>Our Story</Section.Title>
             <p className="mt-4 text-brown-50/70 sm:mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequuntur earum laborum suscipit.
+              Through special business licenses we have daily access to over 200 000 auto auctions in the US and Canada.
             </p>
           </div>
 
           <div className="mt-4 text-brown-50/70 sm:mt-4 md:w-2/5">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi architecto debitis deserunt ea enim illo,
-            itaque magni molestias nostrum obcaecati perspiciatis provident quidem recusandae saepe, tempore unde. Alias
-            .
+            Thanks to our partnership with the best logistics companies, we can we provide safe and fast delivery to
+            your city. With us, you are guaranteed to get your dream car at the best price!
           </div>
         </div>
         <div className="flex flex-col gap-5 md:flex-row md:gap-8">
