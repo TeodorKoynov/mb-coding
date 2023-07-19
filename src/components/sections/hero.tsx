@@ -17,8 +17,7 @@ export const Hero: React.FC<HeroProps> = ({ id }) => {
         <div>
           <div className="z-10 flex flex-col items-center justify-between gap-2 sm:flex-row sm:items-start sm:gap-0">
             <h1 className="text-6xl font-semibold sm:w-1/2">
-              {/*MB Coding <br /> <span className="text-highlight-500">Plovdiv</span>*/}
-              MB Coding <span className="text-highlight-500">Plovdiv</span>
+              Car Delivery <span className="text-highlight-500">Sofia</span>
             </h1>
 
             <div className="z-20 flex flex-col items-start gap-4 sm:w-1/2 md:w-1/3">

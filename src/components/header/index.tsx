@@ -101,7 +101,7 @@ export const Header: React.FC<HeaderProps> = () => {
               alt="Logo"
             />
             <span className="self-center overflow-hidden truncate whitespace-nowrap text-2xl font-semibold text-brown-50 ">
-              MB Coding <span className="hidden text-highlight-500 sm:inline-block">Plovdiv</span>
+              Car Delivery <span className="hidden text-highlight-500 sm:inline-block">Sofiag</span>
             </span>
           </a>
           <button
