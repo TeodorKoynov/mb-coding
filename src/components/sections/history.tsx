@@ -1,8 +1,8 @@
 import { Section } from '@/components/sections/index';
 import { ImageSection } from '@/components/sections/services';
-import conversion from '../../../public/services/conversion-2.jpg';
-import dashboard from '../../../public/services/dashboard.jpg';
-import navigation from '../../../public/services/navigation.jpg';
+import office2 from '../../../public/services/office-2.jpg';
+import officeMeeting from '../../../public/services/office-meeting.jpg';
+import office from '../../../public/services/office.jpg';
 
 export type HistoryProps = { id?: string };
 
@@ -26,15 +26,15 @@ export const History: React.FC<HistoryProps> = ({ id }) => {
         <div className="flex flex-col gap-5 md:flex-row md:gap-8">
           <div className="flex flex-row gap-5 md:w-full">
             <ImageSection
-              imageSrc={navigation}
+              imageSrc={office2}
               imageContainerStyles={'max-h-[10rem] sm:max-h-[12rem] max-w-1/2 md:max-h-[14rem] md:w-1/2'}
             />
             <ImageSection
-              imageSrc={dashboard}
+              imageSrc={office}
               imageContainerStyles={'max-h-[10rem] sm:max-h-[12rem] max-w-1/2 md:max-h-[14rem] md:w-1/2'}
             />
           </div>
-          <ImageSection imageSrc={conversion} imageContainerStyles={'max-h-[14rem]'} />
+          <ImageSection imageSrc={officeMeeting} imageContainerStyles={'max-h-[14rem]'} />
         </div>
       </div>
     </Section>

@@ -10,14 +10,14 @@ export const Clients: React.FC<ClientsProps> = ({ id }) => {
       <div className="mt-8 md:mt-14">
         <Carousel
           images={[
-            { src: '/clients/1.webp', alt: '', width: 500, height: 600 },
-            { src: '/clients/2.webp', alt: '', width: 500, height: 600 },
-            { src: '/clients/3.webp', alt: '', width: 500, height: 600 },
-            { src: '/clients/4.webp', alt: '', width: 500, height: 600 },
-            { src: '/clients/1.webp', alt: '', width: 500, height: 600 },
-            { src: '/clients/2.webp', alt: '', width: 500, height: 600 },
-            { src: '/clients/3.webp', alt: '', width: 500, height: 600 },
-            { src: '/clients/4.webp', alt: '', width: 500, height: 600 },
+            { src: '/clients/car1.webp', alt: '', width: 500, height: 600 },
+            { src: '/clients/car2.webp', alt: '', width: 500, height: 600 },
+            { src: '/clients/car3.webp', alt: '', width: 500, height: 600 },
+            { src: '/clients/car4.webp', alt: '', width: 500, height: 600 },
+            { src: '/clients/car1.webp', alt: '', width: 500, height: 600 },
+            { src: '/clients/car2.webp', alt: '', width: 500, height: 600 },
+            { src: '/clients/car3.webp', alt: '', width: 500, height: 600 },
+            { src: '/clients/car4.webp', alt: '', width: 500, height: 600 },
           ]}
           dots
           loop

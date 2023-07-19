@@ -14,8 +14,6 @@ export type CarouselProps = {
 
 const ResizePlugin: KeenSliderPlugin = (slider) => {
   const observer = new ResizeObserver(() => {
-    console.log(slider.size);
-
     if (slider.size >= 1024) {
       slider.update({
         ...slider.options,

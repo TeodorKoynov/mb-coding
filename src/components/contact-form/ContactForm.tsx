@@ -79,7 +79,6 @@ export const ContactForm: React.FC<ContactFormProps> = () => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm<Inputs>();
 
@@ -172,7 +171,7 @@ export const ContactForm: React.FC<ContactFormProps> = () => {
       </div>
 
       <Button type={'submit'} className="z-10 mt-2" variant="highlight" size="xl">
-        Calculate Now
+        Contact Us
       </Button>
     </form>
   );
